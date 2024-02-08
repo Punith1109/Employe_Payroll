@@ -124,3 +124,20 @@ margin-bottom: 20px;
 #notesid{
     padding-right: 5 0px;
 }
+#empphoto {
+    display: flex;
+    align-items: center; 
+}
+
+#empimg {
+    width: 100px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+
+#text-container {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    font-weight:bold;
+}
