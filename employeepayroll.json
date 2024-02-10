@@ -1,0 +1,50 @@
+{
+  "data": [
+    {
+      "id": "5949",
+      "name": "Manikantaaaaaaannnnnnnn",
+      "gender": "male",
+      "Departments": [
+        "HR"
+      ],
+      "Salary": "1000$-10000$",
+      "Start Day": "2024-02-29",
+      "Notes": "Hii"
+    },
+    {
+      "id": "6773",
+      "name": "Manoj",
+      "gender": "male",
+      "Departments": [
+        "HR",
+        "Sales",
+        "Finance"
+      ],
+      "Salary": "1000$-10000$",
+      "Start Day": "2024-02-29",
+      "Notes": "Hii"
+    },
+    {
+      "id": "7444",
+      "name": "Manoj veluru",
+      "gender": "male",
+      "Departments": [
+        "HR",
+        "Sales",
+        "Finance"
+      ],
+      "Salary": "10000$ above",
+      "Start Day": "2024-02-10",
+      "Notes": "Hii this manoj"
+    },
+    {
+      "id": "8c76",
+      "name": "",
+      "gender": "female",
+      "Departments": [],
+      "Salary": "Select_Salary",
+      "Start Day": "",
+      "Notes": ""
+    }
+  ]
+}

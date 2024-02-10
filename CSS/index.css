@@ -100,7 +100,14 @@ margin-bottom: 20px;
     background-color: rgb(158, 237, 211);
     border-radius: 30px;
 }
-.bottomcon input[type="submit"]{
+/* .bottomcon input[type="submit"]{
+    width: 150px;
+    height: 40px;
+    margin-left: 150px;
+    border-radius: 30px;
+    background-color: aquamarine;
+} */
+#submited{
     width: 150px;
     height: 40px;
     margin-left: 150px;
