@@ -4,7 +4,7 @@ function populateTable(data) {
 var tbody=$('#container2')
 
 for(let i=0;i<data.length;i++){
-  alert("Haaa")
+  alert("yes")
   const row = document.createElement('tr');
   var empData=data[i];
   Object.keys(empData).forEach(function(key){

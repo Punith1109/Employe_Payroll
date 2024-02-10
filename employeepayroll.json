@@ -12,19 +12,6 @@
       "Notes": "Hii"
     },
     {
-      "id": "6773",
-      "name": "Manoj",
-      "gender": "male",
-      "Departments": [
-        "HR",
-        "Sales",
-        "Finance"
-      ],
-      "Salary": "1000$-10000$",
-      "Start Day": "2024-02-29",
-      "Notes": "Hii"
-    },
-    {
       "id": "7444",
       "name": "Manoj veluru",
       "gender": "male",
@@ -38,13 +25,28 @@
       "Notes": "Hii this manoj"
     },
     {
-      "id": "8c76",
-      "name": "",
-      "gender": "female",
-      "Departments": [],
-      "Salary": "Select_Salary",
-      "Start Day": "",
-      "Notes": ""
+      "id": "567b",
+      "name": "Hemanth Reddy",
+      "gender": "male",
+      "Departments": [
+        "HR",
+        "Sales"
+      ],
+      "Salary": "1000$-10000$",
+      "Start Day": "2024-03-07",
+      "Notes": "This is hrmanthhh"
+    },
+    {
+      "id": "a514",
+      "name": "MAni",
+      "gender": "male",
+      "Departments": [
+        "HR",
+        "Sales"
+      ],
+      "Salary": "0-500$",
+      "Start Day": "2024-02-29",
+      "Notes": "Note"
     }
   ]
 }
