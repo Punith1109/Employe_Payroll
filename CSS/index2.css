@@ -1,84 +1,125 @@
-body{
-    background-color:black;
+body {
+    background-color: black;
 }
-#empphoto{
+
+#empphoto {
     justify-content: center;
     padding-left: 20px;
     padding-bottom: 0px;
     background-color: white;
-    }
-    #sample{
-        display: flex;
-        margin-bottom: 0px;
-        font-size: 22px;
-        font-weight:bold;
-    }
-#empimg{
-    width:5%;
+}
+
+#sample {
+    display: flex;
+    margin-bottom: 0px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#empimg {
+    width: 5%;
     padding-left: 10px;
 }
-#adduser{
+
+#adduser {
     background-color: rgb(40, 237, 40);
 }
-.flex-container{
+
+.flex-container {
+    display: flex;
+    height: 50px;
     background-color: rgb(49, 86, 66);
 }
 
-#container{
-    background-color: rgb(9, 108, 108);
-    
-}
-.flex-container{
-    display: flex;
- /* justify-content:space-evenly; */
-    height:50px;
-    background-color:white;
-}
-#Employee{
-    margin-left: 0px;
-}
-
-
-.first{
-
-    width:95%;
+.first {
+    width: 95%;
     height: 100%;
-    margin:auto;
+    margin: auto;
     margin-top: 5%;
-    border:3px solid #000;
-    padding:20px;
+    border: 3px solid #000;
+    padding: 20px;
     background-color: white;
-    
-
 }
-.members{
+
+.members {
     display: flex;
     justify-content: space-between;
     border-radius: 2000px solid black;
 }
 
-#image{
+#image {
     width: 45px;
-    height:45px;
+    height: 45px;
     border-radius: 20px;
 }
-#emp{
+
+#emp {
     margin-right: 0px;
-    padding-right: 1000px;;
+    padding-right: 1000px;
 }
-#sales{
+
+#sales {
     padding-top: 8px;
 }
-#dp{
+
+#dp {
     background-color: rgb(244, 244, 149);
-    border-radius: 50%;;
+    border-radius: 50%;
     border: 20px;
 }
-#pen{
+
+#pen {
     background-color: white;
     border: 0px;
 }
-#bin{
+
+#bin {
     background-color: white;
-    border:0;
+    border: 0;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.close {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.modal-body {
+    margin-top: 1rem;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+.tabler {
+    overflow-x: auto;
 }

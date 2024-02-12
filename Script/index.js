@@ -6,6 +6,8 @@ function empdetails(event) {
 
   var selectedGender = $('#option1').is(':checked');
 
+  var selecteedphoto=document.getElementById('Photo');
+  alert(selecteedphoto)
   var q = selectedGender ? "male" : "female";
   alert(selectedGender)
   var selectedDepartments = []; // declare selectedDepartments as an empty array
